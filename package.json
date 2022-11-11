@@ -2,7 +2,7 @@
   "name": "react-sticky-table-hook",
   "author": "Nicolaj Kirkegaard Nielsen",
   "description": "A React hook for creating tables with sticky rows and columns",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
