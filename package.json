@@ -2,7 +2,7 @@
   "name": "react-sticky-table",
   "author": "Nicolaj Kirkegaard Nielsen",
   "description": "A React hook for creating tables with sticky rows and columns",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "private": false,
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -14,6 +14,7 @@
     "@types/react": "^18.0.25",
     "react": "^18.2.0",
     "rimraf": "^3.0.2",
+    "standard-version": "^9.5.0",
     "typescript": "^4.8.4"
   },
   "scripts": {
@@ -21,6 +22,7 @@
     "clean": "rimraf -rf ./dist",
     "build": "npm run build:cjs && npm run build:esm",
     "build:cjs": "tsc -p tsconfig.json --module commonjs --outDir dist/cjs --target es5",
-    "build:esm": "tsc -p tsconfig.json --module esNext --outDir dist/esm --target es6"
+    "build:esm": "tsc -p tsconfig.json --module esNext --outDir dist/esm --target es6",
+    "release": "standard-version"
   }
 }
