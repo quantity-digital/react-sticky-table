@@ -1,5 +1,5 @@
 {
-  "name": "react-sticky-table",
+  "name": "react-sticky-table-hook",
   "author": "Nicolaj Kirkegaard Nielsen",
   "description": "A React hook for creating tables with sticky rows and columns",
   "version": "1.0.2",
